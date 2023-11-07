@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/topclean24_icon.png">
+    <title>Top Clean 24</title>
+</head>
+<body>
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "122100744890010957");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v17.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- Messenger Chat Plugin Code -->
+
+<!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="images/topclean24_icon.png" alt="Top Clean 24"> Top Clean 24 <span class ="title-ext">Reinigungdienst</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" data-bs-theme="info"> 
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1" aria-controls="offcanvas1">Kitas und Schulreinigung</a></li>
+                  <li><a class="dropdown-item" href="#">Unterhaltsreinigung</a></li>
+                  <li><a class="dropdown-item" href="#">Kanzleireinigung</a></li>
+                  <li><a class="dropdown-item" href="#">Ladengeschäfts Reinigung</a></li>
+                  <li><a class="dropdown-item" href="#">Bauendreinigungen</a></li>
+                  <li><a class="dropdown-item" href="#">Hallenreinigungen</a></li>
+                  <li><a class="dropdown-item" href="#">Treppenhausreinigung</a></li>
+                  <li><a class="dropdown-item" href="#">Haushaltsreinigung</a></li>
+                  <li><a class="dropdown-item" href="#">Entrümpelung</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Praxisreinigung</a></li>
+                  <li><a class="dropdown-item" href="#">Büroreinigung</a></li>
+                  <li><a class="dropdown-item" href="#">Grundreinigung</a></li>
+                  <li><a class="dropdown-item" href="#">Sportstudios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+<!-- Navigation Bar-->
+
+<!--Content-->   
+<!--Content-->
+
+<!-- Hero Carousel-->
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="carousel-content d-flex flex-column justify-content-center align-items-center h-100" style="background-image: url('images/hero2.jpg')">
+          <h1 class="shadow_text"><i>Kontaktieren Sie Uns</i></h1>
+          <br>
+          <h2 class="shadow_text">Email: klodianbuzo@gmail.com     Tel. Nur.: 015208268541</h2>
+          <h2 class="shadow_text">Adresse: Oliver-Lißy-Straße 12, 22523 Hamburg</h2>
+          <br>
+          <a href="#Contact" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Contact Us</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-content d-flex flex-column justify-content-center align-items-center h-100" style="background-image: url('images/hero1.jpg')">
+          <h1 class="shadow_text"><i>Unsere Verpflichtung zur Exzellenz</i></h1>
+          <br>
+          <h2 class="shadow_text">Exzellenz, Sauberkeitsstandards, Kundenzufriedenheit</h2>
+          <br>
+          <br>
+          <a href="#About" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Learn more</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-content d-flex flex-column justify-content-center align-items-center h-100" style="background-image: url('images/hero3.jpg')">
+          <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"><i>Maßgeschneiderte Reinigungslösungen</i></h1>
+          <br>
+          <h2 class="shadow_text">Maßgeschneidert, Anpassbar, Lösungen</h2>
+          <br>
+          <br>
+          <a href="#About" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Learn More</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-content d-flex flex-column justify-content-center align-items-center h-100" style="background-image: url('images/hero3.jpg')">
+          <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"><i>Vertrauen und Zuverlässigkeit</i></h1>
+          <br>
+          <h2 class="shadow_text">Vertrauen, Zuverlässigkeit, Versicherung</h2>
+          <br>
+          <br>
+          <a href="#About" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Learn More</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-content d-flex flex-column justify-content-center align-items-center h-100" style="background-image: url('images/hero3.jpg')">
+          <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"><i>Umweltfreundliche Reinigung</i></h1>
+          <br>
+          <h2 class="shadow_text">Umweltfreundlich, Nachhaltigkeit, Gesundheit</h2>
+          <br>
+          <br>
+          <a href="#About" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Learn More</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-content d-flex flex-column justify-content-center align-items-center h-100" style="background-image: url('images/hero3.jpg')">
+          <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"><i>Ihr Partner in Sachen Sauberkeit</i></h1>
+          <br>
+          <h2 class="shadow_text">Partner, Sauberkeit, Mission</h2>
+          <br>
+          <br>
+          <a href="#About" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- Hero Carousel-->
+
+<!-- Services-->
+<div class="page-content" id="Services">
+  <h1>Services</h1>
+  <br>
+  <!-- Button 1 -->
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1" aria-controls="offcanvas1" style="margin:2px" ><img src="images/services1.png" alt="Kitas und Schulreinigung" style="width: 200px; height: 200px;"><br>Kitas und Schulreinigung</button>
+
+  <!-- Offcanvas 1 -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas1" aria-labelledby="offcanvasLabel1">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasLabel1">Kitas und Schulreinigung</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <!-- Content for Offcanvas 1 -->
+      <p class="offcanvas-content">Die Reinigung von Kindertagesstätten (Kitas) und Schulen ist von entscheidender Bedeutung, um sichere und hygienische Lernumgebungen für unsere jüngsten Lernenden zu schaffen. Bei der Kitas und Schulreinigung geht es weit über das bloße Saubermachen hinaus. Es ist eine verantwortungsvolle Aufgabe, die Gesundheit und Wohlbefinden von Kindern und Jugendlichen schützt.</p>
+        <br>
+        <a href="#Contact" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Button 2 -->
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas2" aria-controls="offcanvas2" style="margin:2px"><img src="images/services2.jpeg" alt="Unterhaltsreinigung" style="width: 200px; height: 200px;"><br>Unterhaltsreinigung</button>
+
+  <!-- Offcanvas 2 -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas2" aria-labelledby="offcanvasLabel2">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasLabel2">Unterhaltsreinigung</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <!-- Content for Offcanvas 2 -->
+      <p>Die Unterhaltsreinigung ist ein wesentlicher Bestandteil für die Aufrechterhaltung von Sauberkeit und Hygiene in verschiedenen Gebäuden und Räumlichkeiten. Dieser fortlaufende Reinigungsdienst zielt darauf ab, die bestmögliche Umgebung aufrechtzuerhalten, sei es in Wohnhäusern, Büros, Geschäften, öffentlichen Einrichtungen oder anderen Orten.
+      </p>
+      <br>
+      <a href="#Contact" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Button 3 -->
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas3" aria-controls="offcanvas3" style="margin:2px"><img src="images/services3.png" alt="Kanzleireinigung" style="width: 200px; height: 200px;"><br>Kanzleireinigung</button>
+
+  <!-- Offcanvas 3 -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas3" aria-labelledby="offcanvasLabel3">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasLabel3">Kanzleireinigung</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <!-- Content for Offcanvas 3 -->
+      <p>Die Kanzleireinigung ist ein spezialisierter Reinigungsdienst, der auf die Bedürfnisse von Anwaltskanzleien und Büros im juristischen Umfeld zugeschnitten ist. Sie umfasst die gründliche Reinigung von Büroräumen, Besprechungszimmern, Wartebereichen und sanitären Anlagen. Sauberkeit und Hygiene sind von großer Bedeutung, um eine professionelle und einladende Umgebung für Anwälte, Mitarbeiter und Mandanten sicherzustellen. Kanzleireinigungsdienstleistungen tragen dazu bei, einen positiven Eindruck zu hinterlassen und die Effizienz in der Rechtspraxis aufrechtzuerhalten.
+      </p>
+      <br>
+      <a href="#Contact" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Button 4 -->
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas4" aria-controls="offcanvas4" style="margin:2px"><img src="images/services4.png" alt="Kanzleireinigung" style="width: 200px; height: 200px;"><br>Ladengeschäftsreinigung</button>
+
+  <!-- Offcanvas 4 -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas4" aria-labelledby="offcanvasLabel4">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasLabel3">Ladengeschäfts Reinigung</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <!-- Content for Offcanvas 4 -->
+      <p>Die Ladengeschäftsreinigung ist ein maßgeschneiderter Reinigungsdienst, der speziell auf die Bedürfnisse von Einzelhandelsgeschäften zugeschnitten ist. Sie umfasst die regelmäßige Reinigung von Verkaufsflächen, Lagerbereichen, Schaufenstern und Eingangsbereichen. Sauberkeit und Hygiene sind von entscheidender Bedeutung, um ein positives Einkaufserlebnis für Kunden zu gewährleisten und die Präsentation von Waren zu optimieren. Ladengeschäftsreinigungsdienstleistungen tragen dazu bei, ein einladendes und professionelles Erscheinungsbild aufrechtzuerhalten und die Kundenzufriedenheit zu steigern. Sie sind ein wichtiger Faktor für den Erfolg von Einzelhandelsgeschäften und tragen zur Schaffung einer angenehmen Einkaufsumgebung bei.
+      </p>
+      <br>
+      <a href="#Contact" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">Contact Us</a>
+    </div>
+  </div>
+  <!-- Add more buttons and offcanvas sections as needed -->
+</div>
+
+
+<!-- Services-->
+
+<!--About Us-->
+<div class="page-content" id="About">
+  <h1>About Us</h1>
+  <br>
+<!--Accordion-->
+<div class="accordion" id="AboutAccordion">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <h5><strong>Über Top Clean 24 Reinigungsdienst</strong></h5>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#AboutAccordion">
+      <div class="accordion-body">
+        Bei Top Clean 24 sind wir stolz darauf, Ihre Wohn- und Arbeitsräume in eine Oase der Sauberkeit und Hygiene zu verwandeln. Wir sind mehr als nur ein Reinigungsservice; wir sind Ihre vertrauenswürdigen Partner, um eine makellose Umgebung für Ihr Zuhause und Ihr Geschäft zu bewahren.
+        <br>
+        <br>
+        <div class="text-center">
+          <img src="images/hero2.jpg" class="img-fluid" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <h5><strong>Unsere Verpflichtung zur Exzellenz</strong></h5>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#AboutAccordion">
+      <div class="accordion-body">
+        <div class="text-center">
+          <img src="images/friendshipInMotion.jpg" class="img-fluid" alt="...">
+        </div>
+        <br>
+        Wir verstehen, dass Sauberkeit nicht nur eine lästige Pflicht ist; sie ist eine Lebenseinstellung. Deshalb sind wir bestrebt, erstklassige Reinigungsdienstleistungen anzubieten, die Ihre Erwartungen übertreffen. Mit jahrelanger Erfahrung in der Branche hat unser professionelles Team seine Fähigkeiten verfeinert, um höchste Sauberkeits- und Kundenzufriedenheitsstandards zu erreichen.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <h5><strong>Maßgeschneiderte Reinigungslösungen</strong></h5>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#AboutAccordion">
+      <div class="accordion-body">
+        <div class="text-center">
+          <img src="images/trustAsOurFuel.jpg" class="img-fluid" alt="...">
+        </div>
+        <br>
+        Jeder Raum ist einzigartig, genauso wie Ihre Reinigungsbedürfnisse. Wir bieten eine Auswahl an anpassbaren Reinigungspaketen, um sicherzustellen, dass Ihre spezifischen Anforderungen erfüllt werden. Ob Sie eine einmalige Grundreinigung, regelmäßige Wartung oder spezialisierte Dienstleistungen benötigen, wir haben die passende Lösung für Sie.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <h5><strong>Vertrauen und Zuverlässigkeit</strong></h5>
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#AboutAccordion">
+      <div class="accordion-body">
+        <div class="text-center">
+          <img src="images/explore.jpg" class="img-fluid" alt="...">
+        </div>
+        <br>
+        Ihr Vertrauen ist unser kostbarstes Gut. Unser Team besteht aus sorgfältig geprüften und geschulten Fachleuten, die nicht nur in ihrem Handwerk versiert sind, sondern auch leidenschaftlich darum bemüht sind, einen erstklassigen Service zu bieten. Wir sind vollständig versichert und haftpflichtversichert, damit Sie vollstes Vertrauen in unsere Arbeit haben können.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        <h5><strong>Umweltfreundliche Reinigung</strong></h5>
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#AboutAccordion">
+      <div class="accordion-body">
+        <div class="text-center">
+          <img src="images/joinus.jpg" class="img-fluid" alt="...">
+        </div>
+        <br>
+        Wir legen Wert auf Ihre Gesundheit und die Umwelt. Top Clean 24 verpflichtet sich zur Verwendung umweltfreundlicher, ungiftiger Reinigungsmittel, die sowohl für Sie, Ihre Familie als auch für unseren Planeten sicher sind. Unser nachhaltiger Ansatz zur Reinigung ist ein Zeugnis unseres Engagements für eine bessere, sauberere Welt.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        <h5><strong>Ihr Partner in Sachen Sauberkeit</strong></h5>
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#AboutAccordion">
+      <div class="accordion-body">
+        <div class="text-center">
+          <img src="images/joinus.jpg" class="img-fluid" alt="...">
+        </div>
+        <br>
+        Ob es sich um Ihr Zuhause, Ihr Büro oder Ihren gewerblichen Raum handelt, Top Clean 24 steht Ihnen zur Seite, um Ihr Leben sauberer, gesünder und angenehmer zu gestalten. Wir kümmern uns um das Chaos, damit Sie sich auf das konzentrieren können, was Ihnen wirklich wichtig ist. Schließen Sie sich uns in unserer Mission an, saubere und gesunde Lebens- und Arbeitsräume zu schaffen.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        <h5><strong>Kontaktieren Sie uns</strong></h5>
+      </button>
+    </h2>
+    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#AboutAccordion">
+      <div class="accordion-body">
+        <div class="text-center">
+          <img src="images/joinus.jpg" class="img-fluid" alt="...">
+        </div>
+        <br>
+        Bereit, den Unterschied von Top Clean 24 zu erleben? Treten Sie noch heute mit uns in Kontakt, um Ihren nächsten Reinigungstermin zu vereinbaren. Wir freuen uns darauf, den Glanz in Ihren Räumlichkeiten wiederherzustellen.
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<!--Accordion-->
+<!--About Us-->
+
+<!-- Testimonial Container -->
+<div class="testimonial-container">
+  <h1>Testimonials</h1>
+  <br>
+  <div class="testimonial-scroll">
+    <!-- Testimonial Cards -->
+      <div class="card">
+        <!-- Testimonial 1 content -->
+        <img src="images/testimonial1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ramil Doronilla, Bank Manager</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."Big shoutout to the incredible team at Sampaguita08 Transport Services! 🙌🚙 The driver's professionalism and punctuality truly stood out during my recent trip. They made the journey enjoyable and stress-free, leaving me impressed with their attention to detail and friendly demeanor. 🌟👏 #SampaguitaExcellence #ReliableTransport #TopNotchService"</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">⭐⭐⭐⭐⭐</small>
+        </div>
+        <!-- ... -->
+      </div>
+
+    <div class="card">
+      <!-- Testimonial 2 content -->
+      <img src="images/testimonial2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Veronica Alba, Businesswoman</h5>
+          <p class="card-text">"Kudos to the amazing driver from Sampaguita08 Transport Services! 🚗🌟 Their driving skills were top-notch, making the journey smooth and comfortable. From start to finish, I felt safe and at ease. Truly a professional and courteous driver who exceeded my expectations. I'll definitely be booking with them again for my next trip! Highly recommended! 👏😊 #Sampaguita08Transport #ExcellentService #SafeAndSmoothJourney"</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-body-secondary">⭐⭐⭐⭐⭐</small>
+        </div>
+      <!-- ... -->
+    </div>
+    <div class="card">
+      <!-- Testimonial 3 content -->
+      <img src="images/testimonial3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Arvin Carlo Janito, Officeworker</h5>
+          <p class="card-text">"Kudos to the amazing driver from Sampaguita08 Transport Services! 🚗🌟 Their driving skills were top-notch, making the journey smooth and comfortable. From start to finish, I felt safe and at ease. Truly a professional and courteous driver who exceeded my expectations. I'll definitely be booking with them again for my next trip! Highly recommended! 👏😊 #Sampaguita08Transport #ExcellentService #SafeAndSmoothJourney"</p>
+        </div>
+        <div class="card-footer">
+            <small class="text-body-secondary">⭐⭐⭐⭐⭐</small>
+        </div>
+      <!-- ... -->
+    </div>
+    <!-- Add more cards as needed -->
+  </div>
+</div>
+
+  
+
+  
+
+
+
+
+
+
+
+<!--Contact Form-->
+<div class="container mt-5" id="Contact">
+    <h2>Contact Us</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<div class="page-content">
+  <a href="https://www.facebook.com/profile.php?id=61550206531764" class="btn" tabindex="-1" role="button" aria-disabled="true"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+  </svg></a>
+  
+  <a href="https://m.me/122100744890010957" class="btn" tabindex="-1" role="button" aria-disabled="true"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
+    <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+  </svg></a>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+    <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
+    <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
+  </svg>
+
+</div>
+<br>
+<!--Contact Form-->
+
+<!--Footer-->
+<footer>©Sampaguita08 Transport Services 2023</footer>
+<!--Footer-->
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

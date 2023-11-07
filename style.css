@@ -1,0 +1,78 @@
+.carousel-content {
+    background-size: cover;
+    background-position: center center;
+    padding: 6rem;
+    color: white;
+}
+
+.shadow_text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.page-content {
+    padding: 2rem;
+}
+
+.page-content2 {
+    padding: 2rem;
+    background-image: url('images/hero_img2\ 1.png');
+    background-size: 100%;
+    background-position: center;
+    color: white;
+
+}
+
+/* CSS for Testimonial Container */
+.testimonial-container {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+    padding: 2rem;
+    background-image: url('images/hero_img2\ 1.png');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  /* Hide sc    rollbar for Webkit browsers (Chrome and Safari) */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+}
+  
+  /* CSS for Testimonial Scrollable Content */
+  .testimonial-scroll {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  /* CSS for Testimonial Cards */
+  .card {
+    width: 400px; /* Adjust the card width as needed */
+    margin-right: 10px; /* Add spacing between cards if desired */
+    flex-shrink: 0;
+    overflow: hidden; /* Hide any content that overflows the card */
+    white-space: wrap; /* Prevent text from wrapping to the next line */
+    text-overflow: ellipsis; /* Show an ellipsis (...) for text overflow */
+    height: 800px;
+  }
+
+
+@media screen and (max-width: 472px) {
+    .title-ext {
+      display: none;
+    }
+    .carousel-content1 {
+        padding: 2rem;
+    }
+    .carousel-content2 {
+        padding: 2rem;
+    }
+    .carousel-content3 {
+        padding: 2rem;
+    }
+  }
