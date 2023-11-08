@@ -51,7 +51,7 @@
   }
   
   /* CSS for Testimonial Cards */
-  .card {
+.card {
     width: 400px; /* Adjust the card width as needed */
     margin-right: 10px; /* Add spacing between cards if desired */
     flex-shrink: 0;
@@ -59,7 +59,14 @@
     white-space: wrap; /* Prevent text from wrapping to the next line */
     text-overflow: ellipsis; /* Show an ellipsis (...) for text overflow */
     height: 800px;
-  }
+}
+
+#whatsapp-widget {
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    z-index: 1000; /* Make sure it appears above other content */
+}
 
 
 @media screen and (max-width: 472px) {
